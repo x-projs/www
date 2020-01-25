@@ -2,7 +2,8 @@ This repo is forked from https://github.com/Ben02/hexo-theme-Anatole.
 
 ### Updates
 
-- Add Google Analytics support.
+- Support google analytics.
+- Support email.
 
 ### Original README.md
 
