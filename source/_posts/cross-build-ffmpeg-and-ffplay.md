@@ -17,6 +17,8 @@ Install the following packages:
 Build:
 
     ./configure --arch=x86 --target-os=mingw32 --cross-prefix=i686-w64-mingw32- --prefix=/mnt/d/src/ffmpeg/build.d/win/x86
+    make -j`nproc` -s
+    sudo make install
 
 ### Build FFplay
 
