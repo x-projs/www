@@ -12,7 +12,7 @@ Note: The following example is building for 32 bits. If you want to build for 64
 Install the following packages:
 
     sudo apt-get update
-    sudo apt-get make nasm gcc mingw-w64
+    sudo apt-get install make nasm gcc mingw-w64
 
 Build:
 
