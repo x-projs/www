@@ -45,6 +45,9 @@ Copy `install.tar.gz` into that folder. And [download the modified luncher](http
 into that folder also. Run `ubuntu18.04.exe` from that folder. Because it is under `wsl-1` folder, so it will use `wsl-1` as the
 distribution name. Due to we never install this distribution, the luncher will install it first, then active it.
 
+> You can also directly download WSL distribution from https://aka.ms/wsl-ubuntu-1804. The file downloaded is actually
+a zip file. You can use 7-zip to open it or change the file extention name to `.zip` and extract `install.targ.gz` directly.
+
 Then create a new folder to hold the second WSL instance:
 
     mkdir d:\WSLs\wsl-2
