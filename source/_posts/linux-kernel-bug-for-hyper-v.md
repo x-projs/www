@@ -4,7 +4,7 @@ date: 2020-03-14 21:40:10
 tags: linux
 ---
 
-Today, I played my [new version Linux kernel 5.5.9](create-wsl-distribution.md) on WSL2. Quickly, I hit a very interesting
+Today, I played my [new version Linux kernel 5.5.9](/2020/03/14/build-your-kernel-for-wsl2/) on WSL2. Quickly, I hit a very interesting
 bug. Please see the following code
 
 ```cpp
