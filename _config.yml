@@ -108,3 +108,5 @@ markdown:
 deploy:
   type: git
   repo: https://github.com/xieyubo/xieyubo.github.io.git
+  name: xyb
+  email: xyb@xyb.name
