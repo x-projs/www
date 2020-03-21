@@ -63,6 +63,6 @@ the original name of the new kernel file is `bzImage`? `bzImage` is actually a k
 real kernel file (vmlinux which is around 50 MB), and adds code which can decompress the real kernel at runtime. The following
 picture comes from https://en.wikipedia.org/wiki/Vmlinux explain the relation ship between `vmlinux` and `bzImage` very clear:
 
-![](/images/Anatomy-of-bzimage.png)
+![](/images/Anatomy-of-bzimage.png)[^1]
 
-*(Original path of this picture: https://en.wikipedia.org/wiki/Vmlinux#/media/File:Anatomy-of-bzimage.png)*
+[^1]: Original path of this picture: https://en.wikipedia.org/wiki/Vmlinux#/media/File:Anatomy-of-bzimage.png.

@@ -95,6 +95,14 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: anatole
 
+# Markdown
+markdown:
+  render:
+    breaks: false
+    typographer: false
+  plugins:
+    - markdown-it-footnote
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:

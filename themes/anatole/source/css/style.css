@@ -6,7 +6,7 @@ html {
 
 body {
   color: rgba(0, 0, 0, 0.5);
-  font-family: 'PingHei', 'PingFang SC', Helvetica Neue, 'Work Sans', 'Hiragino Sans GB', 'Microsoft YaHei', SimSun, sans-serif;
+  font-family: "PingHei", "PingFang SC", Helvetica Neue, "Work Sans", "Hiragino Sans GB", "Microsoft YaHei", SimSun, sans-serif;
   font-size: 15px;
   width: 100%;
   margin: 0 auto 30px auto;
@@ -25,11 +25,11 @@ a {
 
 a:link, a:visited {
   opacity: 1;
-  -webkit-transition: all .15s linear;
-  -moz-transition: all .15s linear;
-  -o-transition: all .15s linear;
-  -ms-transition: all .15s linear;
-  transition: all .15s linear;
+  -webkit-transition: all 0.15s linear;
+  -moz-transition: all 0.15s linear;
+  -o-transition: all 0.15s linear;
+  -ms-transition: all 0.15s linear;
+  transition: all 0.15s linear;
   color: #424242;
 }
 
@@ -263,6 +263,9 @@ a:hover, a:active {
 .post .post-title a:hover {
   text-decoration: underline;
 }
+.post .post-content {
+  text-align: justify;
+}
 .post .post-content a {
   text-decoration: none;
   letter-spacing: 1px;
@@ -400,7 +403,6 @@ a:hover, a:active {
 .footer a:hover {
   color: #4786D6;
 }
-
 /*for archive*/
 .archive {
   width: 100%;
@@ -575,22 +577,22 @@ a.btn {
   border-radius: 999em;
 }
 
-[role="back"] {
+[role=back] {
   padding: 0.5em 1.25em;
   line-height: 1.666em;
 }
 
-[role="home"] {
+[role=home] {
   padding: 0.5em 1.25em;
   line-height: 1.666em;
 }
 
-[role="navigation"] {
+[role=navigation] {
   padding: 0.5em 1.25em;
   line-height: 1.666em;
 }
 
-[role="tags"] {
+[role=tags] {
   padding: 6px 12px;
 }
 
@@ -693,3 +695,5 @@ a.btn {
     display: grid;
   }
 }
+
+/*# sourceMappingURL=style.css.map */
