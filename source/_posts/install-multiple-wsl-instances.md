@@ -57,7 +57,7 @@ install the distribution first and active it.
 
 Use this way, you can create as many WSL instances as you want.
 
-*Update on 2020-03-28*
+***Update on 2020-03-28***
 
 I just noticed that Ubuntu actually has a minimal rootfs released: [Ubunt Base](https://wiki.ubuntu.com/Base).
 So we can use it to create WSL instance directly.
