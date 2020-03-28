@@ -56,3 +56,19 @@ Do the same steps and run `ubuntu18.04.exe` from `wsl-2` folder. It will use `ws
 install the distribution first and active it.
 
 Use this way, you can create as many WSL instances as you want.
+
+*Update on 2020-03-28*
+
+I just noticed that Ubuntu actually has a minimal rootfs released: [Ubunt Base](https://wiki.ubuntu.com/Base).
+So we can use it to create WSL instance directly.
+
+Let's download [Ubuntu Base 19.10](http://cdimage.ubuntu.com/ubuntu-base/releases/19.10/release/ubuntu-base-19.10-base-amd64.tar.gz.),
+change its name to `install.tar.gz` and copy it with [our modified luncher](https://github.com/xieyubo/WSL-DistroLauncher/releases/download/10b787c/ubuntu18.04.exe)
+into a same folder: `D:\ubuntu-19.10`. Double click the launcher. It will create a new WSL instance named as `ubuntu-19.10` for us.
+
+There is no `sudo` in the minimal rootfs, so we need install it maunally. Open a cmd window from Windows and run the following command:
+
+    wsl -d ubuntu-19.10 -u root apt update
+    wsl -d ubuntu-19.10 -u root apt install sudo
+
+Your new WSL instance is ready to use now.
