@@ -50,7 +50,7 @@ OK, let's open a Windows cmd window and shutdown WSL2 virtual machine:
 
     wsl --shutdown
 
-Goto `C:\Windows\System32\lxss\tools` folder, use the new kernel file to replace the old one. Re-launch your WSL instance, type:
+Goto `C:\Windows\System32\lxss\tools`[^1] folder, use the new kernel file to replace the old one. Re-launch your WSL instance, type:
 
     uname -r
 
@@ -58,11 +58,24 @@ You should see the kernel version is `5.5.9` now.
 
 ![](/images/build-your-kernel-for-wsl2-1.png)
 
+***Update on 2020-04-01***
+
+Instead of replacing the original `kernel` file, you can also use global wsl2 configuration file.
+You can create a `.wslconfig` file under `%UserProfile%`, and put the following content:
+
+    [wsl2]
+    kernel=c:\\tmp\\kernel
+
+You must use absolute windows path and with escaped backslashes. So you can not use `\` in the path, must use `\\`. There are some
+other configurations you can specify, please check https://github.com/MicrosoftDocs/WSL/blob/live/WSL/release-notes.md, search
+`.wslconfig`.
+
 Some people might be confused: why the original kernel file is around 50 MB, but the new one is just around 9 MB? Do you remember
 the original name of the new kernel file is `bzImage`? `bzImage` is actually a kind of compressed file format. It compresses the
 real kernel file (vmlinux which is around 50 MB), and adds code which can decompress the real kernel at runtime. The following
 picture comes from https://en.wikipedia.org/wiki/Vmlinux explain the relation ship between `vmlinux` and `bzImage` very clear:
 
-![](/images/Anatomy-of-bzimage.png)[^1]
+![](/images/Anatomy-of-bzimage.png)[^2]
 
-[^1]: Original path of this picture: https://en.wikipedia.org/wiki/Vmlinux#/media/File:Anatomy-of-bzimage.png.
+
+[^2]: Original path of this picture: https://en.wikipedia.org/wiki/Vmlinux#/media/File:Anatomy-of-bzimage.png.
