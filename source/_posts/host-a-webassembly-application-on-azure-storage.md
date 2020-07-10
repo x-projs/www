@@ -1,6 +1,6 @@
 ---
 title: Host A Web Assembly Application On Azure Storage
-date: 2020-07-09 05:04:57
+date: 2020-07-09 17:04:57
 tags:
     - webassembly
     - azure
@@ -82,4 +82,4 @@ Paste that address in your browser, you should see your application:
 
 ### 5. Next
 
-In the next post, we will see how to enable HTTPS and custom domain for your application.
+In the next post, we will see how to [enable HTTPS and custom domain for your application](/2020/07/09/enable-https-and-custom-domain-on-azure-storage-stateic-website/).
