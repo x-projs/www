@@ -60,4 +60,4 @@ The whole process might take 5 to 10 minutes. When it is done, you should be abl
 
 Enabling root domain, like `xxxx.dom` instead of `www.xxx.dom`, is more complex. Because azure doesn't support issuing SSL certificate for root domain.
 You need create a SSL certificate by yourself and upload the certificate to azure. I don't want to make this post too long. Let's leave this topic to
-the next post.
+the [next post](/2020/07/10/enable-https-and-root-domain-on-azure-cdn/).
