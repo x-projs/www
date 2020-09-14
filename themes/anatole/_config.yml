@@ -6,7 +6,7 @@ avatar: /images/favicon.png
 
 # Social Accounts
 twitter: 
-rss:
+rss: https://www.feedreader.org/?feed=https://www.xyb.name/atom.xml
 weibo: 
 instagram: 
 github: xieyubo
