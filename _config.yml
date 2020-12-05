@@ -99,9 +99,11 @@ theme: anatole
 markdown:
   render:
     breaks: false
+    html: true
     typographer: false
   plugins:
     - markdown-it-footnote
+    - markdown-it-emoji
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

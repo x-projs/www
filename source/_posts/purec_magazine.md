@@ -1,15 +1,10 @@
 ---
 title: 为了纪念 —— 《纯C论坛·电子杂志》
-date: 2020-09-11 08:27:09
+date: 2006-01-11 08:27:09
 tags:
     - c
     - c++
 ---
-
-*This is a very old article moved from the old blog.*
-
-为了纪念 ——《纯C论坛·电子杂志》
-为了纪念
 
 ——谨以此纪念《纯C论坛·电子杂志》
 
